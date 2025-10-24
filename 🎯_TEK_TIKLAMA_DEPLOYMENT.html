@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberMinds - Tek Tıklama Deployment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #2563eb;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+        
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        .method {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+        
+        .method:hover {
+            border-color: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.1);
+        }
+        
+        .method h2 {
+            color: #1e293b;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .badge {
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .method p {
+            color: #64748b;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+        }
+        
+        .button.secondary {
+            background: white;
+            color: #2563eb;
+            border: 2px solid #2563eb;
+        }
+        
+        .steps {
+            background: #fff;
+            border-left: 4px solid #2563eb;
+            padding: 15px 20px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        
+        .steps ol {
+            margin-left: 20px;
+            color: #475569;
+        }
+        
+        .steps li {
+            margin-bottom: 8px;
+        }
+        
+        .icon {
+            font-size: 1.5rem;
+        }
+        
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: #92400e;
+        }
+        
+        .success {
+            background: #d1fae5;
+            border-left: 4px solid #10b981;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: #065f46;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 CyberMinds - Tek Tıklama Deployment</h1>
+        <p class="subtitle">Domain'inizi 5 dakikada bağlayın!</p>
+        
+        <!-- Method 1: Netlify Drop -->
+        <div class="method">
+            <h2>
+                <span class="icon">🎯</span>
+                Yöntem 1: Netlify Drop
+                <span class="badge">EN KOLAY</span>
+            </h2>
+            <p>
+                Dosyaları sürükle-bırak ile deploy edin. Kod yazmaya gerek yok!
+            </p>
+            <a href="https://app.netlify.com/drop" target="_blank" class="button">
+                🚀 Netlify'a Git
+            </a>
+            <a href="file://cyberminds-deploy.zip" class="button secondary">
+                📦 ZIP'i Aç
+            </a>
+            
+            <div class="steps">
+                <strong>Adımlar:</strong>
+                <ol>
+                    <li>Yukarıdaki "Netlify'a Git" butonuna tıklayın</li>
+                    <li>Netlify'a kayıt olun (ücretsiz)</li>
+                    <li>"cyberminds-deploy.zip" dosyasını sürükle-bırak yapın</li>
+                    <li>Site settings → Domain management → Add "cyberminds.online"</li>
+                    <li>GoDaddy DNS ayarlarını yapın (GODADDY_DNS_CONFIG.txt)</li>
+                </ol>
+            </div>
+        </div>
+        
+        <!-- Method 2: Vercel -->
+        <div class="method">
+            <h2>
+                <span class="icon">⚡</span>
+                Yöntem 2: Vercel
+                <span class="badge">HIZLI</span>
+            </h2>
+            <p>
+                GitHub ile entegre, otomatik deployment.
+            </p>
+            <a href="https://vercel.com/new" target="_blank" class="button">
+                ⚡ Vercel'e Git
+            </a>
+            
+            <div class="steps">
+                <strong>Adımlar:</strong>
+                <ol>
+                    <li>"Vercel'e Git" butonuna tıklayın</li>
+                    <li>GitHub ile giriş yapın</li>
+                    <li>"Import Project" → Projeyi yükleyin</li>
+                    <li>Deploy tıklayın</li>
+                    <li>Settings → Domains → "cyberminds.online" ekleyin</li>
+                    <li>Vercel'in verdiği DNS ayarlarını GoDaddy'ye ekleyin</li>
+                </ol>
+            </div>
+        </div>
+        
+        <!-- Method 3: GitHub Pages -->
+        <div class="method">
+            <h2>
+                <span class="icon">🐙</span>
+                Yöntem 3: GitHub Pages
+                <span class="badge">ÜCRETSİZ</span>
+            </h2>
+            <p>
+                Tamamen ücretsiz hosting, GitHub ile.
+            </p>
+            <a href="https://github.com/new" target="_blank" class="button">
+                🐙 GitHub'a Git
+            </a>
+            
+            <div class="steps">
+                <strong>Adımlar:</strong>
+                <ol>
+                    <li>GitHub'da yeni repository oluşturun (cyberminds-online)</li>
+                    <li>Terminal'de: <code>./deploy.sh</code> çalıştırın</li>
+                    <li>Repository → Settings → Pages → Enable</li>
+                    <li>Branch: main, folder: / (root)</li>
+                    <li>GoDaddy DNS ayarlarını yapın</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="warning">
+            <strong>⚠️ Önemli:</strong> DNS değişiklikleri 1-24 saat içinde yayılır. Sabırlı olun!
+        </div>
+        
+        <div class="success">
+            <strong>✅ Hazır Dosyalar:</strong><br>
+            • cyberminds-deploy.zip - Deploy paketi<br>
+            • GODADDY_DNS_CONFIG.txt - DNS ayarları<br>
+            • DEPLOYMENT_GUIDE.md - Detaylı rehber<br>
+            • deploy.sh - Otomatik script
+        </div>
+        
+        <div style="margin-top: 30px; text-align: center; color: #64748b;">
+            <p>🛡️ <strong>CyberMinds</strong> - Siber Güvenlik Web Sitesi</p>
+            <p style="font-size: 0.9rem; margin-top: 10px;">
+                Sorun mu yaşıyorsunuz? DEPLOYMENT_GUIDE.md dosyasına bakın!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
