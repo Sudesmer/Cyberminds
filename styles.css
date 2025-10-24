@@ -62,7 +62,7 @@ body {
 
 /* Active Tab Styling */
 .nav-link.active {
-    color: #2563eb;
+    color: #1d4ed8;
     position: relative;
 }
 
@@ -73,7 +73,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #2563eb;
+    background-color: #1d4ed8;
 }
 
 .nav-container {
@@ -91,7 +91,7 @@ body {
     align-items: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #1d4ed8;
     flex-shrink: 0;
     order: 1;
 }
@@ -119,7 +119,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #2563eb;
+    color: #1d4ed8;
 }
 
 .nav-link::after {
@@ -129,7 +129,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #2563eb;
+    background-color: #1d4ed8;
     transition: width 0.3s ease;
 }
 
@@ -198,8 +198,8 @@ body {
 
 .dropdown-link:hover {
     background: #f8fafc;
-    color: #2563eb;
-    border-left-color: #2563eb;
+    color: #1d4ed8;
+    border-left-color: #1d4ed8;
     padding-left: 25px;
 }
 
@@ -232,7 +232,7 @@ body {
 /* Page Header */
 .page-header {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     color: white;
     text-align: center;
 }
@@ -285,7 +285,7 @@ body {
 /* Hero Section */
 .hero {
     padding: 80px 0 60px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -339,7 +339,7 @@ body {
 
 .btn-primary {
     background: #ffffff;
-    color: #2563eb;
+    color: #1d4ed8;
     border-color: #ffffff;
 }
 
@@ -359,7 +359,7 @@ body {
 
 .btn-secondary:hover {
     background: #ffffff;
-    color: #2563eb;
+    color: #1d4ed8;
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -458,7 +458,7 @@ body {
 .feature-icon {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    background: linear-gradient(135deg, #1d4ed8, #3b82f6);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -487,7 +487,7 @@ body {
 /* Stats Section */
 .stats {
     padding: 80px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     color: white;
 }
 
@@ -560,13 +560,13 @@ body {
 .service-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    border-color: #2563eb;
+    border-color: #1d4ed8;
 }
 
 .service-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    background: linear-gradient(135deg, #1d4ed8, #3b82f6);
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -624,7 +624,7 @@ body {
 }
 
 .feature i {
-    color: #10b981;
+    color: #1d4ed8;
     font-size: 1.2rem;
 }
 
@@ -642,7 +642,7 @@ body {
 .stat {
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    background: linear-gradient(135deg, #1d4ed8, #3b82f6);
     border-radius: 15px;
     color: #ffffff;
 }
@@ -690,7 +690,7 @@ body {
 .contact-item i {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    background: linear-gradient(135deg, #1d4ed8, #3b82f6);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -735,7 +735,7 @@ body {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #2563eb;
+    border-color: #1d4ed8;
 }
 
 .form-group textarea {
@@ -770,7 +770,7 @@ body {
 .footer-logo i {
     margin-right: 6px;
     font-size: 1.2rem;
-    color: #2563eb;
+    color: #1d4ed8;
 }
 
 .footer-section h4 {
@@ -795,7 +795,7 @@ body {
 }
 
 .footer-section ul li a:hover {
-    color: #2563eb;
+    color: #1d4ed8;
 }
 
 .social-links {
@@ -817,7 +817,7 @@ body {
 }
 
 .social-links a:hover {
-    background: #2563eb;
+    background: #1d4ed8;
     transform: translateY(-2px);
 }
 
@@ -1013,7 +1013,7 @@ body {
 .course-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -1074,7 +1074,7 @@ body {
 }
 
 .btn-course {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     color: white;
     padding: 12px 30px;
     border-radius: 10px;
@@ -1121,7 +1121,7 @@ body {
 
 .blog-image {
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     position: relative;
     display: flex;
     align-items: center;
@@ -1188,7 +1188,7 @@ body {
 }
 
 .btn-blog {
-    background: #2563eb;
+    background: #1d4ed8;
     color: white;
     padding: 10px 25px;
     border-radius: 8px;
@@ -1199,7 +1199,7 @@ body {
 }
 
 .btn-blog:hover {
-    background: #1d4ed8;
+    background: #1e40af;
     color: white;
 }
 
@@ -1236,7 +1236,7 @@ body {
 
 .video-thumbnail {
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     position: relative;
     display: flex;
     align-items: center;
@@ -1272,7 +1272,7 @@ body {
 
 .play-button i {
     font-size: 1.5rem;
-    color: #2563eb;
+    color: #1d4ed8;
     margin-left: 3px;
 }
 
@@ -1338,7 +1338,7 @@ body {
 .mission-icon {
     width: 200px;
     height: 200px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1379,7 +1379,7 @@ body {
 .member-image {
     width: 100px;
     height: 100px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1400,7 +1400,7 @@ body {
 }
 
 .member-title {
-    color: #2563eb;
+    color: #1d4ed8;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -1431,7 +1431,7 @@ body {
 }
 
 .member-social a:hover {
-    background: #2563eb;
+    background: #1d4ed8;
     color: white;
     transform: translateY(-2px);
 }
@@ -1476,7 +1476,7 @@ body {
 }
 
 .faq-question i {
-    color: #2563eb;
+    color: #1d4ed8;
     transition: transform 0.3s ease;
 }
 
